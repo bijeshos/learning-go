@@ -1,5 +1,5 @@
 # Learning Go
-This repository contains the programs and materials used for Go training
+This repository contains programs and materials used for Go training
 
 # How this repository is organized
 Broadly, based on target audience, programs in this repository are categorized into levels as follows:
