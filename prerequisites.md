@@ -2,10 +2,9 @@
 
 Since the focus of this training is coding practice, it would be helpful to have the environment ready before the session starts. This guide will help you to get the environement setup. 
 
+*It is assumed that you have __admin rights__ to install software and set/modify environment variables in your machine*
 
 # Installation
-
-*It is assumed that you have __admin rights__ to install software and set/modify environment variables in your machine*
 
 ## Go
 First dependency we have is to install and configure __Go__ itself. 
