@@ -43,7 +43,7 @@ At the moment, following are topics/exmples covered:
 
 
 # Prerequisites
-Before you get started make sure to go through the prerquisites mentioned [here](https://github.com/bijeshos/learning-go/blob/master/prerequisites.md)
+Before you get started, make sure to go through the prerquisites mentioned [here](https://github.com/bijeshos/learning-go/blob/master/prerequisites.md)
 
 
 # New project setup
@@ -53,8 +53,10 @@ If you would like to setup a brand new project, follow the instructions from [he
 A quick reference for Go commands can be found [here](https://github.com/bijeshos/learning-go/blob/master/go-commands-reference.md)
 
 # Reference
+If you would like to explore more on Go, following are a few useful URLs
+- https://go.dev/
 - https://tour.golang.org/
 - https://golang.org/pkg
-
+- https://golang.org/
 
 ** work in progress **
