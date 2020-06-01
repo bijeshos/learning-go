@@ -8,20 +8,20 @@ Since the focus of this training is coding practice, it would be helpful to have
 
 ## Go
 First dependency we have is to install and configure __Go__ itself. 
-- Follow the official instructions from [here](https://golang.org/doc/install) to download and install Go
+- Follow the official instructions from [here](https://golang.org/doc/install) to download and install Go.
 - Ensure that relevant environment variables mentioned in the instructions are configured properly. 
 
 ## Visual Studio Code
-The next dependency we have is to setup an IDE for the purpose of coding. For the purpose of our training, we'll be using Visual Studio Code.
+The next dependency we have is to setup an IDE for the purpose of coding. In our training, we'll be using Visual Studio Code.
 
-- Download Visual Studio Code from [here](https://code.visualstudio.com/Download) and install the same
+- Download Visual Studio Code from [here](https://code.visualstudio.com/Download) and install the same.
 
 In addition to the Visual Studio Code, we also need to configure Go Plugin. 
 
 - Follow instructions from [here](https://marketplace.visualstudio.com/items?itemName=ms-vscode.Go) to install the plugin.
 
 # Pre-read
-Before the session starts, it would help to have some background about Go. Here is a set of useful URLs you could use to read before the session.
+Before the session starts, it would help you to have some background about Go. Here is a set of useful URLs you could use to read before the session.
 
 - Go [FAQs](https://golang.org/doc/faq)
 - What kind of solutions can be built using Go?
