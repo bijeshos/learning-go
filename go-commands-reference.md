@@ -29,6 +29,4 @@
 
 - `go test -cover -coverprofile=c.out`  # to generate test coverage profile as a file
 - `go tool cover -html=c.out -o coverage.html` # to generate html file from coverage profile file 
-
-
  
