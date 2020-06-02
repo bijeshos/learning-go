@@ -1,39 +1,31 @@
-# Project setup
-- Run `go env -w GOPATH=/path/to/gopath`
-    - to set the GOPATH location
+# New project setup
 
-- Run `go env -w GOBIN=/path/to/my/bin`
-    - to set the binary path
+- Ensure that Go is installed and setup in your machine. You would need to setup a code editor as well. If not already done, please refer [here](https://github.com/bijeshos/learning-go/blob/master/prerequisites.md) for instructions to do so.
 
-- Run `go mod init github.com/bijeshos/learning-go`
-    - to initialize a module
+- Following are a few of the main environment variables needed. If not set, Go will assume default values. If you prefer to set them manually, follow these steps:
+    - Set `GOPATH` location 
+        - Run `go env -w GOPATH=/path/to/gopath` in a terminal/command prompt
+    - Set `GOBIN` location        
+        - Run `go env -w GOBIN=/path/to/my/bin`
+    - (*Ensure to replace directory paths as needed*)
 
-- Run `go build`
-- Run `go build github.com/bijeshos/learning-go`
-    - to compile packages and dependencies
+- Create a new directory to keep your project code (let's call that directory `my-first-go-project`). 
 
-- Run `go install`
-- Run `go install github.com/bijeshos/learning-go`
-    - to install project's binaries in workspace's bin directory
+- Open a terminal/command prompt in the newly created directory
+    
+- Initialize a module 
+    - Run `go mod init github.com/your-github-handle/my-first-go-project`
+    - (*Ensure to replace __your-github-handle__ with correct value*)
 
-- Run `go list -m all`
-    - to view final versions that will be used in a build for all direct and indirect dependencies
+- Now, you can add programs to the project
 
-- Run `go get golang.org/x/tools/cmd/godoc`
-    - to get go doc
+- To compile packages and dependencies
+    - Run `go build github.com/your-github-handle/my-first-go-project`
 
-# Build instructions
+- To run the generated binary
+    - Run `./my-first-go-project` (on Linux)
+    - Run `my-first-go-project.exe` (on Windows)
 
-- clone the repository
-
-- Run `go build -o learning-go github.com/bijeshos/learning-go`
-    - to build the project
-
-- Run `go install -o learning-go github.com/bijeshos/learning-go`
-    - to install the binaries
-
-- Run `./learning-go`
-    - to run the binary
-
-- Run `go run main.go`
-    - to run main program        
+- To install project's binaries in workspace's bin directory
+    - Run `go install github.com/your-github-handle/my-first-go-project`
+   
