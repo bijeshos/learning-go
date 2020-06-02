@@ -2,7 +2,7 @@
 This repository contains programs and materials used for Go training.
 
 # Repo structure
-Broadly, based on target audience, programs in this repository are categorized into 3 levels as follows:
+Broadly, based on the target audience, programs in this repository are categorized into 3 levels as follows:
 
 | Level | Target Audience | Assumptions |
 | ----- | --------------- | ---------- |
@@ -12,7 +12,7 @@ Broadly, based on target audience, programs in this repository are categorized i
 
 A few additional points to note:
 
-- Each level is furthur divided into various topics and examples. 
+ Each level is furthur divided into topics and examples. 
 - Topics and examples within each topic are arranged in a sequential order. It is highly recommanded to follow the order as it appears. 
 - Each example assumes that the learner has gone through previous topics/examples. 
 - Each example program (*.go) can be executed as a standalone program using `go run file-name.go`
@@ -53,10 +53,11 @@ If you would like to setup a brand new project, follow the instructions from [he
 A quick reference for Go commands can be found [here](https://github.com/bijeshos/learning-go/blob/master/go-commands-reference.md)
 
 # Reference
-If you would like to explore more on Go, following are a few useful URLs
+If you would like to explore more on Go, following are a few useful URLs:
 - https://go.dev/
 - https://tour.golang.org/
 - https://golang.org/pkg
 - https://golang.org/
 
-** work in progress **
+
+__** Please note that this repo is *work-in-progress* **__
