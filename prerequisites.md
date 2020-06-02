@@ -1,6 +1,6 @@
 # Prerequisites
 
-Since the focus of this training is coding practice, it would be helpful to have the environment ready before the session starts. This guide will help you to get the environement setup. 
+Since the focus of the session is to enable attendees to code, it would be helpful to have the environment ready before the session starts. This guide will help you to get the local environement setup. 
 
 *It is assumed that you have __admin rights__ to install software and set/modify environment variables in your machine.*
 
@@ -12,7 +12,7 @@ First dependency we have is to install and configure __Go__ itself.
 - Ensure that relevant environment variables mentioned in the instructions are configured properly. 
 
 ## Visual Studio Code
-The next dependency we have is to setup an IDE for the purpose of coding. In our training, we'll be using Visual Studio Code.
+The next dependency we have is to setup a code editor. For that purpose, we'll be using Visual Studio Code.
 
 - Download Visual Studio Code from [here](https://code.visualstudio.com/Download) and install the same.
 
@@ -33,6 +33,6 @@ Before the session starts, it would help you to have some background about Go. H
 - [Go Documentation](https://golang.org/doc/)
 - [How to effectively write Go](https://golang.org/doc/effective_go.html)
 
-# Practice
+# Coding Practice
 
 If you prefer to play around with Go without installation, visit [here](https://play.golang.org/)
