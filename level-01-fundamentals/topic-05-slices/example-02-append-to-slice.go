@@ -1,5 +1,5 @@
 /*
-A simple program to demonstrate xxx
+A simple program to demonstrate appending to slices
 
 Reference: https://tour.golang.org
 */

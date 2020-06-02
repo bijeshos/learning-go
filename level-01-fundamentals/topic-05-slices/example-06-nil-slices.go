@@ -1,5 +1,5 @@
 /*
-A simple program to demonstrate xxx
+A simple program to demonstrate nil slices
 
 Reference: https://tour.golang.org
 */
