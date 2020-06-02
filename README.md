@@ -40,8 +40,10 @@ At the moment, following topics/exmples are covered:
 | Fundamentals | Concurrency | - |
 | Fundamentals | Testing | - |
 | Fundamentals | Logging | - |
+| Intermediate | I/O Util | <ul><li>File reading</li><li>Directory reading</li></ul> |
+| Advanced | OS package | <ul><li>os.Open() function</li></ul> |
 
-
+*__More examples would be added soon__*
 
 # Prerequisites
 Before you get started, make sure to go through the prerquisites mentioned [here](https://github.com/bijeshos/learning-go/blob/master/prerequisites.md)
