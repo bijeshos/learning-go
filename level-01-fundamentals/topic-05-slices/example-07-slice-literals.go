@@ -1,5 +1,5 @@
 /*
-A simple program to demonstrate xxx
+A simple program to demonstrate slice literals
 
 Reference: https://tour.golang.org
 */
