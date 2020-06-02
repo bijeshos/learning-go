@@ -1,4 +1,5 @@
 # Learning Go
+
 This repository contains programs and materials used for Go training.
 
 # Repo structure
