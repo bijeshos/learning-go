@@ -7,10 +7,12 @@ package main
 
 import "fmt"
 
+//here, types of inputs are declared individually
 func add(x int, y int) int {
 	return x + y
 }
 
+//here, since both inputs are of same types, type is only declared for the final argument
 func subtract(a, b int) int {
 	return a - b
 }
