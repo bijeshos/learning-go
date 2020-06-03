@@ -18,6 +18,8 @@ func subtract(a, b int) int {
 }
 
 func main() {
-	fmt.Println("after adding: ", add(10, 20))
-	fmt.Println("after subtracting: ", subtract(80, 10))
+	result := add(10, 20)
+	fmt.Println("10 + 20 = ", result)
+	result = subtract(80, 10)
+	fmt.Println("80 - 10 = ", result)
 }
