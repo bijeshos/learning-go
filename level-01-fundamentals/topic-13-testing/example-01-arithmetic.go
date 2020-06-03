@@ -12,6 +12,7 @@ func Add(a int, b int) int {
 	return a + b
 }
 
+//Subtract does not have any unit test cases
 func Subtract(a int, b int) int {
 	return a - b
 }
