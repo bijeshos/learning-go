@@ -27,19 +27,18 @@ At the moment, following topics/exmples are covered:
 | ----- | ----- | ------- |
 | Fundamentals | Basics | <ul><li>Hello World</li><li>Package, Imports, Exports</li><li>Print</li></ul> |
 | Fundamentals | Variables | <ul><li>Default variable values</li><li>Global variables</li><li>Variables with initializers</li><li>Short variable declarations</li></ul> |
+| Fundamentals | Pointers | <ul><li>Pointer declarion</li><li>Operations using pointer</li></ul> |
 | Fundamentals | Flow control | <ul><li>If</li><li>If/Else</li><li>If with a short statement</li><li>For loop</li><li>Using for as while</li><li>Switch</li><li>Defer</li></ul> |
-| Fundamentals | Arrays | <ul><li>Basics</li></ul> |
-| Fundamentals | Slices | <ul><li>Basics</li><li>Appending to slices</li><li>Making slices</li><li>Slices pointers</li></ul> |
-| Fundamentals | Maps | - |
-| Fundamentals | Functions | - |
-| Fundamentals | Methods | - |
-| Fundamentals | Types | - |
-| Fundamentals | Structs | - |
-| Fundamentals | Pointers | - |
-| Fundamentals | Interfaces | - |
-| Fundamentals | Concurrency | - |
-| Fundamentals | Testing | - |
-| Fundamentals | Logging | - |
+| Fundamentals | Arrays | <ul><li> Declaration</li><li> Basic operations</li></ul> |
+| Fundamentals | Slices | <ul><li>Declaring slices</li><li>Appending to slices</li><li>Making slices</li><li>Slices pointers</li></ul> |
+| Fundamentals | Maps | <ul><li>Creating a map</li><li>Adding value to map</li><li>Retrieving value from map</li><li>Deleting value from map</li><li>Length operation</li></ul> |
+| Fundamentals | Functions | <ul><li>Simple function</li></ul> |
+| Fundamentals | Methods | <ul><li>Method with pointer reciever</li><li>Method with value receiver</li></ul> |
+| Fundamentals | Structs | <ul><li>Simple struct creation and retrieval</li></ul> |
+| Fundamentals | Interfaces | <ul><li>Interface declaration and implementaion</li></ul>  |
+| Fundamentals | Concurrency | <ul><li>Basic concurrency</li></ul> |
+| Fundamentals | Testing | <ul><li>Unit testing</li><li>Benchmarking</li></ul> |
+| Fundamentals | Logging | <ul><li>Logging to byte buffer</li><li>Logging with different output levels</li></ul> |
 | Intermediate | I/O Util | <ul><li>File reading</li><li>Directory reading</li></ul> |
 | Intermediate | Filepath | <ul><li>Identify file extension</li></ul> |
 | Advanced | os package | <ul><li>os.Open() function</li></ul> |
