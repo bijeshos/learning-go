@@ -41,7 +41,9 @@ At the moment, following topics/exmples are covered:
 | Fundamentals | Testing | - |
 | Fundamentals | Logging | - |
 | Intermediate | I/O Util | <ul><li>File reading</li><li>Directory reading</li></ul> |
-| Advanced | OS package | <ul><li>os.Open() function</li></ul> |
+| Intermediate | Filepath | <ul><li>Identify file extension</li></ul> |
+| Advanced | os package | <ul><li>os.Open() function</li></ul> |
+| Advanced | os/exec package | <ul><li>Run command</li><li>Run command and retrieve output</li></ul> |
 
 *__More examples would be added soon__*
 
