@@ -11,6 +11,14 @@ First dependency we have is to install and configure __Go__ itself.
 - Follow the official instructions from [here](https://golang.org/doc/install) to download and install Go.
 - Ensure that relevant environment variables mentioned in the instructions are configured properly. 
 
+## Proxy
+If you are connected to your organization's network, which uses proxy, make sure to add following environment variables
+
+- `HTTP_PROXY=http://<proxy-url>:<port>`
+- or 
+- `HTTPS_PROXY=https://<proxy-url>:<port>`
+- *(Ensure to replace __proxy-url__ and __port__ with correct values)*
+
 ## Visual Studio Code
 The next dependency we have is to setup a code editor. For that purpose, we'll be using Visual Studio Code.
 
