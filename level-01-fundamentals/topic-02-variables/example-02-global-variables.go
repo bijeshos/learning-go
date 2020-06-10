@@ -8,9 +8,9 @@ package main
 
 import "fmt"
 
-var c, python, java bool
+var a, b, c bool
 
 func main() {
 	var i int
-	fmt.Println(i, c, python, java)
+	fmt.Println(i, a, b, c)
 }
