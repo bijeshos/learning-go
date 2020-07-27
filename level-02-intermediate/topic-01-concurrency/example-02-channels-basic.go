@@ -12,22 +12,22 @@ package main
 
 import "fmt"
 
-func sum(s []int, c chan int) {
+func sum(s []int, ch chan int) {
 	sum := 0
 	for _, v := range s {
 		sum += v
 	}
-	c <- sum // send sum to c
+	ch <- sum // send sum to ch
 }
 
 func main() {
 	numbers := []int{7, 2, 8, -9, 4, 0}
 
-	sumChannel := make(chan int) //make a channel of int;
+	ch := make(chan int) //make a channel of int;
 
-	go sum(numbers[:len(numbers)/2], sumChannel) // call sum by passing number array and channel
-	go sum(numbers[len(numbers)/2:], sumChannel) // call sum one more time
-	x, y := <-sumChannel, <-sumChannel           // receive from sumChannel
+	go sum(numbers[:len(numbers)/2], ch) // call sum by passing number array and channel
+	go sum(numbers[len(numbers)/2:], ch) // call sum one more time
+	x, y := <-ch, <-ch                   // receive from ch
 
 	fmt.Println("x:", x, ", y:", y, ", x+y: ", x+y)
 }
