@@ -46,5 +46,3 @@ func main() {
 	time.Sleep(time.Second)
 	fmt.Println("final key value: ", c.retrieve("my-key"))
 }
-
-//reference: https://tour.golang.org/
